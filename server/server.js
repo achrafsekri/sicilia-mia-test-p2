@@ -7,7 +7,7 @@ var cors = require("cors");
 app.use(cors());
 
 const mongodb =
-  "mongodb+srv://achraf:96079422@cluster0.pkvoq.mongodb.net/apis?retryWrites=true&w=majority";
+  "";
 
 mongoose
   .connect(mongodb)
